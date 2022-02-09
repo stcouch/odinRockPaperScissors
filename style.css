@@ -1,6 +1,9 @@
 body {
     margin: 0px;
-    height: 100vh;
+}
+
+.body {
+    height: calc(100vh - 25px);
 }
 
 #answer {
@@ -34,4 +37,8 @@ body {
 
 .botbar {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    border-top: 2px solid black;
 }
