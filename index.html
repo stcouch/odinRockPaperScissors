@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="external.js"></script>
+    </head>
+
+<body>
+        <div class='toptitle'>Rock-Paper-Scissors</div>
+        <div class='topscore'>
+            <div class='userScore'>Your Score: <span id='uscore'>0</span></div>
+            <div class='comScore'>Comp Score: <span id='cscore'>0</span></div>
+        </div>
+
+        <div id='answer'>Pick an Option:</div>
+
+        <div class='buttons'>
+    <input type='button' id='rockButton' value='Rock' onclick="playRound('rock')"/>
+    <input type='button' id='paperButton' value='Paper' onclick="playRound('paper')"/>
+    <input type='button' id='sciButton' value='Scissors' onclick="playRound('scissors')"/>
+    </div>
+
+    <div class='restart'><input type='button' id='restartButton' value='Restart' onclick="window.location.reload()" hidden/></div>
+
+    <div class="botbar">Site by: stcouch</div>
+
+</body>
+
+</html>
